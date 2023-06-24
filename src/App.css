@@ -1,0 +1,43 @@
+/* container styling  */
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 4rem auto;
+  padding: 1rem;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  width: 450px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #0000ff26;
+}
+
+/* card main container  */
+.main-card {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+/* card styling  */
+.card {
+  width: 240px;
+  height: 185px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  margin: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #deb8871c;
+}
+button {
+  margin: 5px 15px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.delete {
+  color: lightcoral;
+  font-size: 1.5rem;
+}
+.edit {
+  color: lightgreen;
+  font-size: 1.5rem;
+}
